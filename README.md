@@ -9,6 +9,7 @@
 
 1. Rename the util-modelXX.py to utils.py and put it on the board together with model file: modelXX.elf.
 2. Run test_accuracy_latency.ipynb to get the latency and accuracy of the tested model.
+3. change the threadnum in utils.py to use different number of threads.
 
 ## Image files
 
