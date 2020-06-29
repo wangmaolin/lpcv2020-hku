@@ -9,8 +9,11 @@
 
 1. Rename the util-modelXX.py to utils.py and put it on the board together with model file: modelXX.elf.
 2. Run test_accuracy_latency.ipynb to get the latency and accuracy of the tested model.
-3. change the threadnum in utils.py to use different number of threads.
+3. Change the threadnum in utils.py to use different number of threads.
 
 ## Image files
 
 The ImageNet validation set should be put under ./val which contains ILSVRC2012_val_00000001.JPEG, ILSVRC2012_val_00000002.JPEG, ..., ILSVRC2012_val_00050000.JPEG.
+
+## Note
+All the model weights and activations are quantized to 8 bits.
