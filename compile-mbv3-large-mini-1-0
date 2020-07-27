@@ -1,0 +1,7 @@
+#!/bin/bash
+MODEL_NUM=0
+vai_c_tensorflow \
+    --arch /opt/vitis_ai/compiler/arch/dpuv2/Ultra96/Ultra96.json\
+    --output_dir . \
+    --frozen_pb ./mbv3-large-mini-1-0/deploy_model.pb\
+    --net_name v3_large_mini 
